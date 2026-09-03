@@ -1,0 +1,106 @@
+
+
+
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      /* background: linear-gradient(135deg, #102c1f, #11a770, #77e4a1); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #3de395, #11a770, #77e4a1);
+    }
+    .login-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 40px;
+      width: 350px;
+      color: white;
+      text-align: center;
+    }
+    
+    .logo {
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 20px;
+    }
+
+    #icongo {
+        width: 70px;
+        height: auto;
+    }
+
+    h2 {
+      margin: 10px 0;
+    }
+    .form-group {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      background-color: transparent;
+    }
+    .options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .options a {
+      color: #b2ff59;
+      text-decoration: none;
+    }
+    .btn {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(135deg, #00c853, #b2ff59);
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #fff;
+    }
+    .social-login {
+      margin: 20px 0;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .social-icons div {
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .footer {
+      font-size: 12px;
+      margin-top: 20px;
+      color: #ccc;
+    }
+    .footer a {
+      color: #b2ff59;
+      text-decoration: none;
+    }
